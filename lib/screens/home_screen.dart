@@ -13,6 +13,12 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppStyle.bgColor,
+      appBar: AppBar(
+        elevation: 0.0,
+        title: const Text("Notes"),
+        centerTitle: true,
+        backgroundColor: AppStyle.bgColor,
+      ),
     );
   }
 }
